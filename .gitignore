@@ -1,0 +1,65 @@
+# === PYTHON / JUPYTER PROJECT STANDARD IGNORE ===
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Logs and temp files
+*.log
+*.tmp
+*.out
+*.err
+
+# Jupyter notebook checkpoints and temp dirs
+.ipynb_checkpoints/
+jupyter_cache/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Data and model outputs (optional: keep processed or figures only)
+data/raw/
+data/tmp/
+data/interim/
+*.sqlite3
+*.db
+
+# Cache / intermediate computations
+__pycache__/
+.cache/
+.pytest_cache/
+
+# Figures or reports can stay
+!figures/
+!data/processed/
+!notebooks/
+!README.md
+
+# OS or local environment files
+*.tar.gz
+*.zip
+*.7z
+*.gz
+
+# VS Code and other IDEs
+.vscode/
+.idea/
